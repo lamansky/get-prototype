@@ -1,0 +1,30 @@
+{
+  "name": "get-prototype",
+  "version": "1.0.0",
+  "description": "Validates and returns a function’s prototype.",
+  "keywords": [
+    "function",
+    "prototype"
+  ],
+  "author": "John Lamansky",
+  "license": "MIT",
+  "homepage": "https://github.com/lamansky/get-prototype",
+  "repository": "lamansky/get-prototype",
+  "main": "index.js",
+  "dependencies": {
+    "is-object": "^1.0.1"
+  },
+  "devDependencies": {
+    "eslint-config-lamansky": "^1.0.0",
+    "mocha": "^3.2.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "eslintConfig": {
+    "extends": "lamansky",
+    "env": {
+      "mocha": true
+    }
+  }
+}
